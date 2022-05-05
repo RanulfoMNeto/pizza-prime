@@ -115,6 +115,10 @@ nav .wrapper {
   justify-content: space-between;
 }
 
+a.logo img {
+  max-width: 14rem;
+}
+
 nav.scroll {
   background: var(--primary-color);
   transition: background 1s;
