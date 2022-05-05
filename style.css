@@ -293,35 +293,6 @@ body.menu-expanded button path {
   object-position: 0 2rem;
 }
 
-#home .stats {
-  width: 32.7rem;
-  padding-block: 4rem;
-  margin-inline: auto;
-
-  background-color: var(--brand-beige);
-  border: 1px solid var(--brand-light);
-  border-radius: 0.6rem;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 6rem;
-}
-
-#home .stat h3 {
-  font-size: 4.8rem;
-  color: var(--headline);
-  line-height: 130%;
-
-  margin-bottom: 0.4rem;
-}
-
-#home .stat p {
-  margin: 0;
-  color: var(--primary-color);
-  font-size: 1.6rem;
-  line-height: 150%;
-}
 
 /*=== PIZZA MENU =================================*/
 #pizza-menu header h2 {
@@ -344,32 +315,13 @@ body.menu-expanded button path {
   box-shadow: 5px 5px 0px var(--primary-color);
 }
 
-/*=== ABOUT =================================*/
-#about {
-  text-align: left;
-  background-color: var(--brand-beige);
-}
-
-#about header h2 {
-  margin-bottom: 2.4rem;
-}
-
-#about .content p {
-  margin-top: 2.4rem;
-  margin-bottom: 6rem;
-}
-
-/*================ MY CSS =======================*/
-
-/*============ PIZZA MENU ==============*/
-
 #pizza-menu .cards .card {
   border-radius: 3rem;
 }
 
 #pizza-menu .card .title {
   font-size: 2.6rem; 
-  color: var(--paragraph); 
+  color: var(--headline); 
 }
 
 #pizza-menu .card .details {
@@ -401,12 +353,26 @@ body.menu-expanded button path {
   width: 10rem;
 }
 
-/*============ PIZZA MENU ==============*/
+/*=== ABOUT =================================*/
+#about {
+  text-align: left;
+  background-color: var(--brand-beige);
+}
+
+#about header h2 {
+  margin-bottom: 2.4rem;
+}
+
+#about .content p {
+  margin-top: 2.4rem;
+  margin-bottom: 6rem;
+}
 
 #about .content img {
   border: 1px solid var(--brand-light);
   box-shadow: 5px 5px 0px var(--primary-color);
 }
+
 
 /*==== PIZZA EFFECT ====*/
 .rotate-center {
